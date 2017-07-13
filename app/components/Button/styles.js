@@ -4,18 +4,18 @@ export default EStyleSheet.create({
   container: {
     alignItems: 'center',
   },
-  buttonContainer: {
-    alignItems: 'center',
+  wrapper: {
     flexDirection: 'row',
+    alignItems: 'center',
   },
-  image: {
+  icon: {
     width: 19,
     marginRight: 11,
   },
-  buttonText: {
+  text: {
     color: '$white',
     fontSize: 14,
-    fontWeight: '300',
     paddingVertical: 20,
+    fontWeight: '300',
   },
 });
